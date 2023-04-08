@@ -1,4 +1,23 @@
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding-medium) var(--padding-xlarge);
+    align-items: center;
+    color: var(--white);
+    background-color: var(--black);
+    font-size: var(--font-size-large);
+    letter-spacing: 0.2px;
     .list {
+        display: flex;
+        list-style: none;
+        gap: var(--padding-xlarge);
+        margin: 0;
+        li {
+            text-transform: uppercase;
+            a {
+                color: var(--white);
+                text-decoration: none;
+            }
+        }
     }
 }

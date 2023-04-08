@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("./assets/Raleway-VariableFont_wght.woff2")
+            format("woff2 supports variations"),
+        url("./assets/Raleway-VariableFont_wght.woff2")
+            format("woff2-variations");
+    font-weight: 100 1000;
+}
+
 :root {
     --black: #000000;
     --white: #fff;
@@ -8,7 +17,14 @@
     --padding-large: 24px;
     --padding-xlarge: 32px;
 
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --font-size-small: 14px;
+    --font-size-medium: 16px;
+    --font-size-large: 18px;
+    --font-size-xlarge: 22px;
+    --font-size-xxlarge: 24px;
+    --font-size-xxxlarge: 32px;
+
+    font-family: "Raleway", sans-serif;
     line-height: 1.5;
     font-weight: 400;
 }
